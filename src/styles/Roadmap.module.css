@@ -1,0 +1,592 @@
+.mainContainer {
+    width: 825px;
+    height: 72px;
+    border-radius: 10px;
+    background: #373F68;
+    padding: 24px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+
+.mainContainer1 {
+    width: 1110px;
+    height: 113px;
+    border-radius: 10px;
+    background: #373F68;
+    padding: 35px 40px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.boldText {
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.25px;
+}
+
+.flexContainer {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.lastDiv {
+    padding-top: 30px;
+}
+
+.flexContainer1 {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    right: 110px;
+}
+
+.flexContainer2 {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+    right: 15px;
+    top: 3px;
+}
+
+.img4 {
+    position: relative;
+    top: 3px;
+}
+
+.purpleBtn {
+    width: 158px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #AD1FEA;
+    padding: 12.5px 25px;
+    position: relative;
+    bottom: 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.purpleBtn1 {
+    width: 158px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #AD1FEA;
+    padding: 12.5px 25px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.cardContainer {
+    width: 825px;
+    height: 151px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 28px 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cardContainer1 {
+    width: 825px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 20px;
+}
+
+.header1 {
+    padding: 28px 32px 0 32px;
+
+}
+
+.box {
+    width: 40px;
+    height: 53px;
+    border-radius: 10px;
+    background: #F2F4FF;
+    padding: 5px 10px;
+    margin-right: 40px;
+}
+
+.box1 {
+    width: 40px;
+    border-radius: 40px;
+}
+
+.box1 {
+    height: 30px;
+    width: fit-content;
+    border-radius: 10px;
+    background: #F2F4FF;
+    padding: 5px 10px;
+    color: #4661E6;
+}
+
+.align {
+    position: relative;
+    left: 5px;
+}
+
+.text {
+    color: #3A4374;
+    text-align: center;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.181px;
+}
+
+.textDesc {
+    color: #647196;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.colorText {
+    color: #4661E6;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.backText {
+    color: #647196;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+
+.backText1 {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.mobile{
+    display: none;
+}
+.blueBtn {
+    width: 142px;
+    height: 44px;
+    flex-shrink: 0;
+    padding: 12.5px 25px;
+    border-radius: 10px;
+    background: #4661E6;
+    color: #FFF;
+    cursor: pointer;
+
+}
+
+.colorText {
+    color: #4661E6;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.align1 {
+    position: relative;
+    bottom: 8px;
+}
+
+.decWidth {
+    width: 770px !important;
+    margin-left: auto;
+}
+
+.img1 {
+    margin-right: 24px;
+}
+
+.formContainer {
+    width: 540px;
+    justify-content: 'center';
+    display: 'flex';
+    background-color: #FFF;
+    height: 637px;
+    border-radius: 10px;
+    padding: 42px;
+}
+
+.editFormContainer {
+    width: 540px;
+    justify-content: 'center';
+    display: 'flex';
+    background-color: #FFF;
+    height: 750px;
+    border-radius: 10px;
+    padding: 42px;
+}
+
+.inputTitle {
+    color: #3A4374;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.194px;
+}
+
+.inputDiv {
+    margin-top: 24px;
+}
+
+.inputDesc {
+    color: #647196;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.input {
+    width: 456px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F7F8FD;
+    border: none;
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.input1 {
+    width: 456px;
+    height: 97px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F7F8FD;
+    border: none;
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.mt {
+    margin-top: 40px;
+}
+
+.error {
+    color: #D73737;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.select {
+    margin-top: 16px;
+}
+
+.img2 {
+    position: relative;
+    bottom: 70px;
+    right: 270px;
+}
+
+.img3 {
+    position: relative;
+    bottom: 70px;
+    right: 170px;
+}
+
+.cancelBtn {
+    width: 93px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3A4374;
+    position: relative;
+    bottom: 10px;
+    color: #FFF;
+    padding: 12.5px 25px;
+    cursor: pointer;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 46px;
+    cursor: pointer;
+}
+
+.redBtn {
+    width: 93px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #D73737;
+    padding: 12.5px 25px;
+    position: relative;
+    bottom: 10px;
+    color: #FFF;
+    margin-top: 46px;
+    cursor: pointer;
+}
+
+.card {
+    width: 350px;
+    height: 272px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+/* .divs {
+    width: 233px;
+} */
+
+.CardDivs {
+    width: 350px;
+    padding: 25px;
+    background-color: #fff;
+    height: 240px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.flexRow {
+    display: flex;
+    gap: 16px;
+}
+
+.mt1 {
+    margin-top: 8px;
+}
+
+.mt2 {
+    margin-top: 14px;
+}
+
+.mt3 {
+    margin-top: 32px;
+}
+
+.tabs {
+    width: 125px;
+    text-align: center;
+}
+
+.Container {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    opacity: 0.25;
+    background: #8C92B3;
+}
+.blueLine {
+    margin-top: 17px;
+    /* width: 120px; */
+    height: 4px;
+    background: #AD1FEA;
+
+}
+
+@media (min-width: 701px) and (max-width: 1120px) {
+
+    .mainContainer,
+    .cardContainer,
+    .cardContainer1,
+    .flexContainer {
+        width: 690px !important;
+        margin: auto;
+    }
+
+    .temp {
+        width: fit-content !important;
+    }
+
+    .flexContainer1 {
+        right: 40px !important;
+    }
+
+    .widthAdj {
+        width: 190px !important;
+    }
+
+    .getMarginAuto {
+        margin: auto;
+    }
+
+    .textDesc {
+        font-size: 13px;
+    }
+
+    .CardDivs {
+        width: 233px;
+    }
+
+    .lastDiv {
+        padding-top: 0px;
+    }
+
+    .mainContainer1 {
+        width: 730px !important;
+    }
+}
+
+@media (min-width: 301px) and (max-width: 701px) {
+
+    .mainContainer,
+    .cardContainer,
+    .cardContainer1 {
+        width: 100% !important;
+        border-radius: 0px;
+        margin: auto;
+    }
+
+    .cardContainer {
+        display: none;
+    }
+
+    .cardDivsDisplay {
+        display: block;
+        margin: auto;
+        margin-top: 24px;
+    }
+
+    .displayNone {
+        display: none;
+    }
+
+    .fontSize {
+        font-size: 13px;
+    }
+
+    .flexContainer1 {
+        right: 0px !important;
+    }
+
+    .editFormContainer,
+    .formContainer {
+        width: 327px;
+        padding: 24px;
+        height: 893px;
+    }
+    .mainContainer1{
+        width: 403px;
+    }
+    .input,
+    .input1 {
+        width: 279px;
+    }
+
+    .img2 {
+        bottom: 70px;
+        right: 0px;
+    }
+
+    .img3 {
+        top: -54px;
+    }
+
+    .mt {
+        margin-top: 0px;
+    }
+
+    .column {
+        flex-direction: column-reverse;
+        margin-top: 42px !important;
+    }
+
+    .btnDiv {
+        margin-top: 0px;
+        flex-direction: column-reverse;
+        cursor: pointer;
+    cursor: pointer;
+    }
+
+    .expandBtn {
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+    .mt30 {
+        position: relative;
+        top: 50px;
+    }
+
+    .displayOrNot{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .purpleBtn1{
+        width: 130px;
+        font-size: 13px;
+        padding: 14px 20px;
+        cursor: pointer;
+    }
+    .backText1{
+        font-size: 13px;
+    }
+    .boldText{
+        font-size: 18px;
+    }
+    .removePd{
+        padding: 0px;
+    }
+}

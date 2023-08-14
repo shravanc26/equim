@@ -1,0 +1,250 @@
+.equim {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.25px;
+    position: relative;
+    /* right: 230px; */
+    left: 24px;
+    bottom: 70px;
+}
+
+.fbb {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    right: 32px; 
+    bottom: 50px;
+}
+
+.container {
+    margin-bottom: 24px;
+    width: 255px;
+    height:178px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 24px;
+}
+.container1{
+    margin-top: 24px;
+    width: 255px;
+    height: 178px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 24px;
+}
+.box {
+    height: 30px;
+    width: fit-content;
+    border-radius: 10px;
+    background: #F2F4FF;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.navElements{
+    width: 271px;
+    background: #F7F8FD;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.box:hover{
+    background: #CFD7FF ;
+}
+.active {
+    background: #4661E6 !important;
+}
+
+.textBox {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mainContainer {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.boldText {
+    color: #3A4374;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.25px;
+}
+
+.linkText {
+    color: #4661E6;
+    font-family: Jost;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.orangeCircle {
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #F49F85;
+    position: relative;
+    top: 5px;
+}
+.purpleCircle{
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #AD1FEA;
+    position: relative;
+    top: 5px;
+}
+.blueCircle{
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #62BCFA;
+    position: relative;
+    top: 5px;
+}
+.divsTabs1{
+
+}
+
+.cont2 {
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    margin-left: 15px;
+}
+.colorText{
+    color: #4661E6;
+font-family: Jost;
+font-size: 13px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.imgTab{
+    border-radius: 4px;
+}
+.divsTabs1{
+    display: none;
+}
+/* responsive */
+.fade{
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.5;
+    position: absolute;
+    top: 72px;
+    left: 0px;
+background: #000;
+}
+@media (min-width: 701px) and (max-width: 1120px) {
+    .grid {
+        flex-direction: column;
+        /* padding-: 40px; */
+        width: 100%;
+    }
+    .flex{
+        display: flex;
+        margin: auto;
+        gap: 10px;
+    }
+    .imgTab {
+        margin-top: 24px;
+        width: 223px !important;;
+        height:178px !important;
+    }
+    
+    .divsTabs{
+        width: 223px !important;
+        
+    }
+    .container{
+        position: relative;
+        top: 24px;
+    }
+  }
+  @media (min-width: 301px) and (max-width: 701px) {
+    .divsTabs1{
+        display: block;
+    }
+    .grid {
+        flex-direction: column;
+        /* padding: 40px; */
+        width: 100%;
+    }
+    .flex{
+        display: flex;
+        margin: auto;
+        gap: 10px;
+    }
+    .imgTab {
+        width: 100vw !important;
+        height:72px !important;
+        border-radius: 0px;
+    }
+    .divsTabs{
+        display: none;
+    }
+    .equim, .fbb{
+        font-size: 13px;
+    }
+    .equim{
+        left : 24px;
+        bottom: 55px;
+    }
+    .fbb{
+        left :-14px;
+        bottom: 35px;
+    }
+    .imgMobile{
+        position: absolute;
+        right: 24px;
+        top: 24px;
+        z-index: 1;
+    }
+    .divsTabs1{
+        position: absolute;
+        left:  0px;
+        top: 0px;
+    }
+    .navElements{
+        position: absolute;
+        z-index: 1;
+        right: 0px;
+        top: 72px;
+        width: 75vw;
+        height: 100vh;
+    }
+    .divsTabs2{
+        margin: 0px auto;
+        margin-top: 24px;
+    }
+  }
+
